@@ -5,7 +5,6 @@ function UserGuess({ gameOver, getGuess, isWinner, currentRow, answer }) {
 
   function handleSubmit(event) {
     event.preventDefault();
-    console.info({ guess: userInput });
     getGuess(userInput);
     setUserInput('');
   }
