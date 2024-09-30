@@ -1,5 +1,7 @@
 # Word Game
 
+## Project website: <a href="https://tariq-k-dev.github.io/project-wordle/" target="_blank">https://tariq-k-dev.github.io/project-wordle/</a>
+
 ## Joy of React, Project I
 
 In this project, we'll recreate a popular online word game, Wordle:
@@ -226,8 +228,7 @@ The user wins the game when their guessed word is identical to the `answer`. The
 ```html
 <div class="happy banner">
   <p>
-    <strong>Congratulations!</strong> Got it in
-    <strong>3 guesses</strong>.
+    <strong>Congratulations!</strong> Got it in <strong>3 guesses</strong>.
   </p>
 </div>
 ```
